@@ -1,0 +1,147 @@
+.col-3 {
+    flex: 0 0 30%;
+    max-width: 100%;
+    width: 100%;
+}
+
+.col-9 {
+    flex: 0 0 70%;
+    max-width: 100%;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.currentDay {
+    background: rgb(132, 182, 242);
+    background: linear-gradient(135deg, rgba(132, 182, 242, 1) 0%, rgba(93, 120, 181, 1) 52%, rgba(90, 109, 222, 1) 72%);
+    width: 100%;
+    min-height: 300px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+}
+
+.w-content {
+    padding: 10px 20px;
+}
+
+.c-weekday {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.c-date {
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255, 0.719);
+    margin-bottom: 5px
+}
+
+.c-location {
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255, 0.719);
+}
+
+.c-weatherIcon {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-weatherIcon img {
+    width: 100%;
+    max-width: 100px;
+}
+
+.c-temp {
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+}
+
+.c-desc {
+    font-size: 1.6rem;
+    color: rgb(255, 255, 255);
+}
+
+.c-detail {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px 20px;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.detail-item {
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.t-uppercase {
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.c-next {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    min-height: 130px;
+}
+
+.w-content-u {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 20%;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    transition: .5s;
+    border-radius: 20px;
+    height: 100px;
+    padding: 5px
+}
+
+.w-content-u:hover {
+    background: #fff;
+    transform: scale(1.1);
+}
+
+.w-content-u:hover>.u-weekday, .w-content-u:hover>.u-temp {
+    color: #000;
+}
+
+.u-weekday {
+    font-size: 1.6rem;
+    color: #fff;
+    transition: .5s;
+}
+
+.u-weatherIcon {
+    width: 100%;
+    max-width: 50px;
+    height: 100%
+}
+
+.u-temp {
+    font-size: 1.6rem;
+    color: #fff;
+    transition: .5s;
+}
