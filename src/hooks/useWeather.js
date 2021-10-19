@@ -1,6 +1,5 @@
 import axios from "axios";
 import { useState } from "react";
-import axiosClient from "../apis/axiosClient";
 import { getCurrentDay } from "../helpers/getCurrentDate";
 import { getCurrentDayDetail } from "../helpers/getCurrentDateDetail";
 import { getUpcomingDays } from "../helpers/getUpcomingDate";
