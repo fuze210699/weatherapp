@@ -25,12 +25,18 @@ export const Wrapper = styled.div`
 export const Input = styled.input`
   width: 100%;
   height: 40px;
-  outline: 2px solid #7fffd4;
-  outline-offset: 2px;
-  border: 2px solid #7fffd4;
-  border-radius: 20px;
+  outline: none;
+  border: 2px solid #fff;
+  border-bottom: 2px solid #13161f;
   padding: 5px 20px;
   margin-bottom: 20px;
+  transition: 0.2s;
+  :focus,
+  :focus-visible,
+  :focus-within {
+    border: 2px solid blue;
+    border-radius: 5px;
+  }
 `;
 export const Submit = styled.input`
   width: 100%;

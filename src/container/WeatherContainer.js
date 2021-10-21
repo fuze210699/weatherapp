@@ -36,7 +36,6 @@ export default function WeatherContainer() {
 
           {isError && (
             <>
-              {" "}
               <Weather.Error message={isError} />{" "}
               <button
                 onClick={() => {
